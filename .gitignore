@@ -1,0 +1,6 @@
+vendor/
+build/
+.idea/
+*.key
+*.crt
+*.pem
