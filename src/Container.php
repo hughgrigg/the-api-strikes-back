@@ -3,8 +3,8 @@
 namespace DeathStarApi;
 
 use DeathStarApi\Remote\CertFile;
-use DeathStarApi\Remote\SplCertFile;
 use DeathStarApi\Remote\DeathStarApi;
+use DeathStarApi\Remote\SplCertFile;
 use InvalidArgumentException;
 use RuntimeException;
 
@@ -104,7 +104,7 @@ class Container
     {
         $envUri = $this->getEnv(self::DEATH_STAR_URI);
         $uri = $envUri ?: DeathStarApi::URI;
-        /** @noinspection BypassedUrlValidationInspection */
+        /* @noinspection BypassedUrlValidationInspection */
         if (\filter_var($uri, FILTER_VALIDATE_URL) === false) {
             throw new InvalidArgumentException(
                 "Bad Death Star URI provided: {$uri}"

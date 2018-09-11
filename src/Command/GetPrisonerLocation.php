@@ -4,7 +4,7 @@ namespace DeathStarApi\Command;
 
 class GetPrisonerLocation extends Command
 {
-    public const NAME        = 'get:prisoner';
+    public const NAME = 'get:prisoner';
     public const DESCRIPTION = <<<DOC
 Get the location of a prisoner in DroidSpeak.
 

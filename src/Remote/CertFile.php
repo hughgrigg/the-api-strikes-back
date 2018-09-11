@@ -3,7 +3,7 @@
 namespace DeathStarApi\Remote;
 
 /**
- * A certificate file used for requests against the Death Star API
+ * A certificate file used for requests against the Death Star API.
  */
 interface CertFile
 {

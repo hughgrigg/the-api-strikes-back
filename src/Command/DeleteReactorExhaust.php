@@ -4,7 +4,7 @@ namespace DeathStarApi\Command;
 
 class DeleteReactorExhaust extends Command
 {
-    public const NAME        = 'delete:reactor-exhaust';
+    public const NAME = 'delete:reactor-exhaust';
     public const DESCRIPTION = <<<DOC
 Delete one of the Death Star's reactor exhausts.
 

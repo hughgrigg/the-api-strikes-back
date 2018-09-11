@@ -72,7 +72,7 @@ class Console
      */
     private function help(): void
     {
-        print "Available commands:\n";
+        echo "Available commands:\n";
         foreach ($this->commands as $commandClass) {
             printf(
                 "%s\n\t%s\n\n",

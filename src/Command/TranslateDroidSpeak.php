@@ -6,8 +6,8 @@ use DeathStarApi\Translate\DroidSpeakLine;
 
 class TranslateDroidSpeak extends Command
 {
-    public const NAME        = 'translate:droid-speak';
-    public const DESCRIPTION = <<<DOC
+    public const NAME = 'translate:droid-speak';
+    public const DESCRIPTION = <<<'DOC'
 Translate input lines of DroidSpeak into Galactic basic.
 DOC;
 
